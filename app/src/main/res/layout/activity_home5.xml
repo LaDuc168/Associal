@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".file.HomeActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtcontent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@id/edtcontent"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnsave"
+        android:text="save"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Read"
+        android:id="@+id/btnread"
+        android:layout_below="@id/edtcontent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txtresult"
+        android:layout_below="@id/btnsave"
+        android:layout_height="wrap_content" />
+    <com.example.lavanduc.rxjava.file.Customview
+        android:layout_width="match_parent"
+        android:layout_below="@id/txtresult"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

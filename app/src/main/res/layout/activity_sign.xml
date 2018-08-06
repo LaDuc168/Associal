@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.SignActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:id="@+id/imgCover"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp" />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:id="@+id/edtname"
+        android:layout_below="@id/imgCover"
+        android:hint="name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtpass"
+        android:layout_below="@id/edtname"
+        android:hint="pas"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btnsign"
+        android:text="Sign"
+        android:layout_below="@id/edtpass"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

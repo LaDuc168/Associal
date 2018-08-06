@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RxJava</string>
+    <string name="ticker_text">RxJava</string>
+    <string name="demostring">RxJava</string>
+    <dimen name="size_button">30dp</dimen>
+    <string name="username">username</string>
+    <string name="password">password</string>
+</resources>

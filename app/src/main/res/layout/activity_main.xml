@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btngeturl"
+        android:text="get url"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="350dp"
+        android:id="@+id/imgResult"
+        android:layout_below="@id/btngeturl"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_centerHorizontal="true"
+        android:layout_height="200dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtname"
+        android:layout_below="@id/btngeturl"
+        android:hint="name"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtpass"
+        android:layout_below="@id/edtname"
+        android:hint="pas"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Sign"
+        android:id="@+id/btnsign"
+        android:layout_below="@id/edtpass"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Login"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnlogin"
+        android:layout_below="@id/edtpass"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
